@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self, account_number, account_holder_name, initial_balance=0):
-        self._account_number = 4522128014
-        self._account_holder_name = 'antony'
+        self._account_number = 45221280
+        self._account_holder_name = 'veera'
         self._account_balance = 5001
 
     def deposit(self, amount):
@@ -23,8 +23,8 @@ class BankAccount:
 
 
 if __name__ == "__main__":
-    account_number = 4522128014
-    account_holder_name ='ANTONY'
+    account_number = 45221280
+    account_holder_name ='veera'
     initial_balance = 5001
 
     # Creating a new bank account instance
